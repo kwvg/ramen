@@ -65,5 +65,5 @@ Uses the Ableton Live 10 Suite 10.1.2, using the `wav` verb in-script. **Promisi
 
 - Generating PNG files with `imagemagick`: `find . -type f -name '*.wav' -maxdepth 1 -exec ./ramen.sh wav {} \;`
 - Generating WAV files with `ffmpeg`: `find assets -type f -name '*.png' -maxdepth 1 -exec ./ramen.sh png {} \;`
-- All the images within `results` were first losslessy compressed with [crunch](https://github.com/chrissimpkins/Crunch) and then files were lossy compressed with [pngquant](https://github.com/kornelski/pngquant) using `find results -type f -name *.png -exec pngquant --nofs --strip --speed 1 --skip-if-larger -- {} \;` to ~~meet Git LFS requirements~~ meet Git requirements (still >1GB but at least no file is >100MB)
+- All the images within `results` were first lossy compressed with [crunch](https://github.com/chrissimpkins/Crunch) and then files were lossy compressed with [pngquant](https://github.com/kornelski/pngquant) using `find results -type f -name *.png -exec pngquant --nofs --strip --speed 1 --skip-if-larger -- {} \;` to ~~meet Git LFS requirements~~ meet Git requirements (still >1GB but at least no file is >100MB)
 
