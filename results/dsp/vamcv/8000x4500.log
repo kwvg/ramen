@@ -1,0 +1,4 @@
+Converting file "./8000x4500.wav" to "8000x4500.raw" with Sox
+Converting file "8000x4500.raw" to "8000x4500.png" with ImageMagick
+convert: unexpected end-of-file '8000x4500.rgb': No such file or directory @ error/rgb.c/ReadRGBImage/247.
+convert: no images defined `8000x4500.png' @ error/convert.c/ConvertImageCommand/3282.
