@@ -1,4 +1,4 @@
-<img src="https://media.githubusercontent.com/media/kittywhiskers/ramen/master/misc/extras/logo256.png" width="200" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
+<img src="https://github.com/kittywhiskers/ramen/blob/master/misc/extras/logo256.png" width="200" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
 
 # ramen
 
